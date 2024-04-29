@@ -56,3 +56,34 @@ p{
   position: absolute;
   right: 30%
 }
+
+/* features */
+#features{
+  background-color: #fff;
+  position: relative;
+}
+.feature{
+  text-align: center;
+  padding: 1rem
+}
+.feature i{
+  color: #ef8172;
+  margin-bottom: 15px;
+}
+.feature i:hover{
+  color: #ff4c68
+}
+/* testimonials */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonials-image{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
