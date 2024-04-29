@@ -87,3 +87,48 @@ p{
   border-radius: 50%;
   margin: 20px;
 }
+/* press */
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  overflow: hidden;
+  text-align: center;
+}
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+.cta-header{
+  font-size: 3rem;
+  width: 53%;
+  margin: 50px auto;
+}
+.cta-btn{
+  margin-right: 15px
+}
+#footer{
+  text-align: center;
+}
+.social-links{
+  margin-bottom: 30px;
+}
+.social-links i{
+  margin-left: 10px;
+}
+@media (max-width: 989px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    margin-top: 20px;
+  }
+}
